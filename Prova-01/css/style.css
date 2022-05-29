@@ -1,0 +1,82 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: white;
+}
+header{
+	background-color: #A1CEF8;
+	padding: 20px 0;
+	width: 100%;
+	top: 0;
+	z-index: 3;
+	height: 120px;
+}
+footer{
+	background-color: #1A396B;
+	color: white;
+	height: 100px;
+	padding-top: 50px;
+	margin-top: 20px;
+	font-size: 12px;
+}
+h1{
+	text-align: center;
+	font-size: 48px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	color: #1A396B;
+}
+h2{
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: #FF5551;
+}
+h3{
+	text-align: center;
+	font-size: 24px;
+	color: #1A396B;
+}
+
+/* Classes e Objetos*/
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.box-flex{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.header-navbar ul{
+	height: 120px;
+}
+.header-navbar ul li{
+	margin: 0 10px;
+	padding-bottom: 30px;
+	list-style: none;
+	text-transform: uppercase;
+	color: #1A396B;
+	font-size: 16px;
+}
+.footer-navbar ul li{
+	list-style: none;
+	margin: 0 10px;
+}
+.flex-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#image-about img{
+	width: 80%;
+	border-radius: 10px;
+}
