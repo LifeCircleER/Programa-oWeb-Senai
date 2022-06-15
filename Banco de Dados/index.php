@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> PDO-CRUD </title>
+	<title> PROVA </title>
 </head>
 <body>
 <h1> Formulario de cadastro </h1>
@@ -22,5 +22,6 @@
 		<input type="submit" name="ENVIAR">
 	</div>
 </form>
+
 </body>
 </html>
