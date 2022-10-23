@@ -1,6 +1,6 @@
 public class Cachorro {
 
-        String nome = "Fido";
+        public String nome;
 
         public void latir(){
             System.out.println("Au Au");
